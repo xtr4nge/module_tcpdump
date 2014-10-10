@@ -88,7 +88,7 @@ include "includes/options_config.php";
     if (file_exists("/usr/sbin/tcpdump")) { 
         echo "&nbsp;$mod_name <font style='color:lime'>installed</font><br>";
     } else {
-        echo "&nbsp;$mod_name <a href='includes/module_action.php?install=install_ngrep' style='color:red'>install</a><br>";
+        echo "&nbsp;$mod_name <a href='includes/module_action.php?install=install_$mod_name' style='color:red'>install</a><br>";
     } 
     ?>
     

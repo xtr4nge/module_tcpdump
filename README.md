@@ -1,5 +1,9 @@
 module_tcpdump
 ===========
 
-FruityWifi tcpdump module
+FruityWiFi tcpdump module
 
+
+v1.2
+---------------------------------
+- PHP7 compatibility issues has been fixed

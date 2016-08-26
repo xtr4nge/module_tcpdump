@@ -1,6 +1,6 @@
-<?
+<?php
 $mod_name="tcpdump";
-$mod_version="1.1";
+$mod_version="1.2";
 $mod_path="/usr/share/fruitywifi/www/modules/$mod_name";
 $mod_logs="$log_path/$mod_name.log"; 
 $mod_logs_history="$mod_path/includes/logs/";
@@ -9,7 +9,6 @@ $mod_isup="ps auxww | grep $mod_name | grep -v -e 'grep $mod_name'";
 $mod_alias="Tcpdump";
 
 # EXEC
-$bin_danger = "/usr/share/fruitywifi/bin/danger";
 $bin_sudo = "/usr/bin/sudo";
 $bin_sh = "/bin/sh";
 $bin_echo = "/bin_echo";
